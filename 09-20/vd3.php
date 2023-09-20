@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <!--table>tr*10>(td+{7})+(td+{$})+(td) -->
+    <!--table>tr*10>(td>{7})+(td>{$})+(td) -->
     <?php $n=5; ?>
     <table border="1">
         <?php 
