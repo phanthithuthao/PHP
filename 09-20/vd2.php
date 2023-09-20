@@ -1,6 +1,6 @@
 <html>
     <?php 
-    $n =1;
+    $n =2;
     //neu n chan -> in ra 1 form, n le: in ra 1 table
     ?>
     <body>
@@ -13,6 +13,25 @@
             echo '<table border=1';
             echo '<tr><td>' . $n . '</td></tr>';
             echo '</table>';
+        }
+        ?>
+        <hr>
+        <!--Method 2 should be written follow here -->
+        <?php
+        if ($n%2==0) {
+            ?>
+            <form action="">
+                <input type=text name=n value="<?php echo $n; ?>">
+            </form>
+            <?php
+        }else {
+            ?>
+            <table border=1>
+                <tr>
+                    <td><?php echo $n ?></td>
+                </tr>
+            </table>
+            <?php
         }
         ?>
     </body>
