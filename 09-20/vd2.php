@@ -1,7 +1,7 @@
 <html>
     <?php 
     $n =2;
-    //neu n chan -> in ra 1 form, n le: in ra 1 table
+    //If n is even print it to form, otherwise print it to table
     ?>
     <body>
         <?php
